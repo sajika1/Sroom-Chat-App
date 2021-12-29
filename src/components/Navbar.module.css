@@ -1,0 +1,23 @@
+.header{
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: #1916cab4;
+}
+
+.title{
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.button{
+  all: unset;
+  cursor: pointer;
+}
+.LogOut_icon{
+  font-size: 1.3rem;
+  color: #fff;
+}
