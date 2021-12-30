@@ -8,17 +8,34 @@
 .login_title{
   font-size: 1rem;
   padding: .5rem;
+  text-align: center;
 }
 
 .login_title h1{
   font-weight: 300;
 }
 .login_contents{
+  cursor: pointer;
   padding: .5rem;
 }
 .login_title span{
+  font-size: 2rem;
   font-weight: 400;
   color: #1916cab4 ;
+}
+
+@media only screen and ( max-width:400px){
+
+  .login_title h1{
+    font-size: 1.5rem !important;
+    font-weight: 300;
+  }
+
+  .login_title span{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #1916cab4 ;
+  }
 }
 
 .login_btn{
@@ -29,11 +46,14 @@
   border-radius: .4rem;
   color: #1916cab4;
   width: 100%;
-  transition: all .3s ease-in;
+  transition: .3s ease-in;
 }
 .login_btn:hover{
   background-color: #1916cab4;
-  color: white;
+  color: #fff;
+}
+.login_btn:hover .btn_text{
+  color: #fff;
 }
 
 .btn_content{

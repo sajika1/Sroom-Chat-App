@@ -6,7 +6,7 @@ import axios from 'axios';
 
 // Components
 import Navbar from './Navbar';
-
+import Loading from './Loading';
 // Styles
 import styles from "./Chats.module.css"
 
@@ -67,7 +67,7 @@ const Chats = () => {
         history.push("/")
     }
 
-    if (!user || loading) return "Loading..."
+    if (!user || loading) return <Loading/>
 
     return (
         <div className={styles.container}>

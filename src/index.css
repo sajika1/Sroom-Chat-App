@@ -10,5 +10,19 @@
   background: transparent; /* Optional: just make scrollbar invisible */
 }
 .ce-chat-list{
-  padding: .5rem;
+  padding: 0 .5rem !important;
+}
+.ce-chat-card{
+  margin: .2rem 0 !important;
+}
+
+.ce-chat-card:hover{
+  transition: .3s;
+  border-radius: 12px;
+  background-color: rgba(188, 222, 251, 0.163);
+}
+.ce-active-chat-card{
+  transition: .3s;
+  background-color: rgba(131, 191, 248, 0.231) !important;
+  box-shadow: 0px 1px 5px 3px #f0f0f084 !important;
 }
